@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="/weatherWeb/assets/css/styles.css">
+    <link rel="shortcut icon" href="/weatherWeb/assets/img/02d.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <h1 class="title">Weather</h1>
+            <div class="search-block">
+                <input id="search-box" type="text" placeholder="Search..." name="search-city">
+                <button id="btn-search">
+                    <span class="material-icons white1 md-20">search</span>
+                </button>
+            </div>
+        </div>
+        <div class="weather-box">
+            <div class="info-current">
+                <div id="address"></div>
+                <!-- <div id="temperature">
+                    <span id="temp">30</span>
+                    <span id="unit">°C</span> -->
+                <div id="temperature"></div>      
+            </div>
+            <div id="weather-icon">
+                <!-- <img src="/weatherWeb/assets/img/04n.png" alt=""> -->
+            </div>
+        </div>
+    </div>
+    
+    <script src="/weatherWeb/assets/js/main.js"></script>
+</body>
+</html>
