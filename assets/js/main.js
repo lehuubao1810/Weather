@@ -25,7 +25,7 @@ btnSearch.onclick = () => {
                     let addressName = `${data.name}, ${data.sys.country}`;
                     address.innerHTML = addressName;
                     temperature.innerHTML = `${tempNumber.toFixed(0)}°`;
-                    weatherIcon.innerHTML = `<img src="/assets/img/${iconId}.png" alt="">`;
+                    weatherIcon.innerHTML = `<img src="/Weather/assets/img/${iconId}.png" alt="">`;
                 } else {
                     alert("City not found");
                 }
